@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的个人博客</title><link>https://EXSchwarzer.github.io/</link><description>Recent content on 我的个人博客</description><generator>Hugo -- 0.150.0</generator><language>zh-cn</language><lastBuildDate>Tue, 23 Sep 2025 15:48:39 +0800</lastBuildDate><atom:link href="https://EXSchwarzer.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>第一篇帖子</title><link>https://EXSchwarzer.github.io/posts/first-post/</link><pubDate>Tue, 23 Sep 2025 15:48:39 +0800</pubDate><guid>https://EXSchwarzer.github.io/posts/first-post/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>我的個人網站</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 我的個人網站</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 23 Sep 2025 21:18:23 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于我</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 23 Sep 2025 21:18:23 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;关于-exschwarzer&#34;&gt;关于 EXSchwarzer&lt;/h1&gt;
+&lt;p&gt;我是一个住在澳洲的开发者，使用 Hugo 建站。&lt;/p&gt;
+&lt;h2 id=&#34;兴趣&#34;&gt;兴趣&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Guinea pigs&lt;/li&gt;
+&lt;li&gt;Gaming&lt;/li&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;Finance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;联系方式&#34;&gt;联系方式&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;邮箱&lt;/strong&gt;: &lt;a href=&#34;mailto:email@example.com&#34;&gt;email@example.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/EXSchwarzer&#34;&gt;https://github.com/EXSchwarzer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;© 2025 EXSchwarzer · Powered by Hugo &amp;amp; PaperMod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第一篇帖子</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Tue, 23 Sep 2025 15:48:39 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,8 +1,54 @@
 baseURL = 'https://EXSchwarzer.github.io/'
 languageCode = 'zh-cn'
-title = '我的个人博客'
+title = '我的個人網站'
 theme = 'PaperMod'
 
 [params]
-  description = '欢迎来到我的博客'
-  author = 'EX_Schwarzer'
+  description = '歡迎來到我的網站'
+  author = 'EXSchwarzer'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = false
+  disableSpecial1stPost = false
+  disableScrollNextPrev = false
+  ShowAllPagesInBottomPagination = false
+  comments = false
+
+[params.homepage]
+  cardView = false
+
+[params.homepage.profileMode]
+  enabled = true
+  imageUrl = "/images/avatar.jpg"
+  imageWidth = 1080
+  imageHeight = 1080
+  imageTitle = "EXSchwarzer 的頭像"
+
+[params.homepage.profileMode.buttons]
+  showEmail = false
+  showRSS = false
+
+[params.homepage.authorBox]
+  enabled = true
+  mode = "auto"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+
+[params.footer]
+  containerSized = true
+  copyright = "© 2025 EXSchwarzer · Powered by Hugo & PaperMod"
