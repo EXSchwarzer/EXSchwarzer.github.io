@@ -1,0 +1,8 @@
+baseURL = 'https://EXSchwarzer.github.io/'
+languageCode = 'zh-cn'
+title = '我的个人博客'
+theme = 'PaperMod'
+
+[params]
+  description = '欢迎来到我的博客'
+  author = 'EX_Schwarzer'
