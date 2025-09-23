@@ -3,7 +3,7 @@ name: Deploy Hugo to gh-pages
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   build-deploy:
@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        submodules: true 
+        submodules: true  # 拉取主题子模块
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
@@ -23,7 +23,7 @@ jobs:
       run: hugo --minify
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3  
+      uses: peaceiris/actions-gh-pages@v3  # 明确用 v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
